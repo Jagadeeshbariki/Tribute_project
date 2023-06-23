@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(126, 188, 188);
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    line-height: 1.7;
+
+   
+   
+}
+
+#Hl{
+    background-color: rgb(175, 194, 179);
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(isro.jpg);
+    background-size: contain;
+}
+h1{
+    color: rgb(230, 2, 255);
+    background-color: springgreen;
+}
+
+.container{
+    margin-top: 25px;
+    padding: 2.5%;
+}
+#info{
+    background-color: beige;
+    
+ 
+}
+h2{
+    background-color: rgb(185, 230, 118);
+    text-align: center;
+}
+
+/*  Professional life */
+
+#prof{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#in{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#pers{
+    display: flex;
+    width: 35%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    border: 3px black solid;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: rgba(217, 206, 206, 0.815);
+    justify-content: space-between;
+}
+
+#pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+td, th{
+    text-align: justify;
+}
+caption{
+    background-color: rgba(10, 136, 220, 0.632);
+    margin: 2%;
+    margin-bottom:0;
+}
+/* TABLE STYLE */
+@media (max-width:800px) {
+    #pers{
+        display: none;
+        
+    }
+    #in{
+        display: block;
+        width: 100%;
+    }
+}
+
